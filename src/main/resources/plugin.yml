@@ -2,3 +2,16 @@ name: TestPlugin
 version: 1.0
 api-version: 1.13
 main: com.chillchila.xd.ChillchilaProj
+commands:
+  kit:
+    description: it gives u something
+    usage: /kit
+    permissions: Test.XD
+  hat:
+    description: It Puts u a hat
+    usage: /hat
+    permissions: Test.XD
+  withers:
+    description: HAHA YES DIE
+    usage: /withers
+    permissions: Test.XD
