@@ -24,4 +24,5 @@ public class DetectBlockBreak implements Listener {
             item.setVelocity(new Vector(0, 1, 0));
         }
     }
+
 }
