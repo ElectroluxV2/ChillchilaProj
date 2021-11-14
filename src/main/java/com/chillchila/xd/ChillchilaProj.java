@@ -23,6 +23,7 @@ public class ChillchilaProj extends JavaPlugin {
         this.getCommand("withers").setExecutor(new WitherStorm());
         Bukkit.getPluginManager().registerEvents(new Fly(), instance);
         Bukkit.getPluginManager().registerEvents(new DetectBlockBreak(), instance);
+
         System.out.println("Enabled");
     }
     @Override
